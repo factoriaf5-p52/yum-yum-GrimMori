@@ -1,0 +1,46 @@
+*{
+    border: 1px solid cyan;
+}
+
+html{
+    background-color: lightpink;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+}
+
+header nav{
+    display: flex;
+    opacity: 50%;
+    align-self: center;
+
+}
+
+h1{
+    opacity: 50%;
+}
+
+.product-banner{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10%;
+    text-align: left;
+}
+
+.product-banner img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-banner div span{
+    display: flex;
+    flex-direction: row;
+}
+
+.grey-star{
+    filter: grayscale();
+}
