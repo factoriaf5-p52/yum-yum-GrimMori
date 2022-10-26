@@ -3,7 +3,12 @@
 }
 
 html{
+    height: 100%;
     background-color: lightpink;
+}
+
+body{
+    height: 100%;
 }
 
 header div{
@@ -16,6 +21,67 @@ header nav{
     opacity: 50%;
     align-self: center;
 
+}
+
+#grey-space{
+    background-color: grey;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+}
+
+#order{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#order h2{
+    font-family: Intro;
+    font-size: 100px;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+#order div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2%;
+    padding-left: 35%;
+    padding-right: 35%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#order div div{
+    align-self: center;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+#find-a-food{
+    align-self: flex-start;
+    text-decoration: none;
+    font-family: Intro;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: orangered;
+    font-family: Intro;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    margin: 5%;
 }
 
 h1{
