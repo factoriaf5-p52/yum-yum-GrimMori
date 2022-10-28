@@ -9,6 +9,8 @@ html{
 
 body{
     height: 100%;
+    padding: 0%;
+    margin: 0%;
 }
 
 header div{
@@ -28,10 +30,6 @@ header nav{
     align-self: center;
 }
 
-header img{
-    opacity: 100%;
-}
-
 header nav img{
     align-content: center;
     opacity: 50%;
@@ -39,7 +37,7 @@ header nav img{
 }
 
 h1{
-    opacity: 50%;
+    color: grey;
     margin-left: 3%;
     margin-top: 1%;
     margin-bottom: 5%;
@@ -52,8 +50,7 @@ h1{
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vh;
-    height: 100vh;
+    height: 500px;
 }
 
 #order{
@@ -78,35 +75,33 @@ h1{
 #order div{
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
     background-color: white;
     border-radius: 5px;
     padding: 2%;
     padding-left: 35%;
     padding-right: 35%;
     text-align: center;
-    text-decoration: none;
 }
 
 #order div a{
-    padding-left: 90%;
-    padding-right: 90%;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 255, 242);
+    display: flex;
     flex-flow: row nowrap;
-}
-
-#order img{
-    border: 1px solid black;
-    filter: brightness(100%) sepia(1) hue-rotate(80deg) saturate(5);
-}
-
-#order div div a{
+    align-self: center;
+    justify-content: space-evenly;
     color: black;
-    opacity: 50%;
     text-decoration: none;
     font-family: Intro;
     font-weight: 100;
+}
+
+#order svg{
+    border: 1px solid red;
+    fill: orangered;
+}
+
+#order div a span{
+    color: grey;
 }
 
 #find-a-food{
