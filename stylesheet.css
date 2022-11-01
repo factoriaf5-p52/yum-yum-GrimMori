@@ -41,7 +41,7 @@ h1{
     margin-left: 3%;
     margin-top: 1%;
     margin-bottom: 5%;
-    font-family: Intro;
+    font-family: Lato;
     font-weight: 100;
 }
 
@@ -71,6 +71,7 @@ h1{
     display: flex;
     align-self: stretch;
     font-family: Intro;
+    font-weight: ;
     font-size: 6rem;
     color: white;
     margin: 5%;
@@ -122,6 +123,7 @@ h1{
 }
 
 #order div a span{
+    font-family: Lato;
     color: grey;
     justify-self: center;
 }
@@ -170,7 +172,6 @@ h1{
 }
 
 #how-it-works div div{
-    border: 2px solid aqua;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
@@ -189,10 +190,9 @@ h1{
 }
 
 #how-it-works h3{
-    border: 2px solid aqua;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato;
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 #how-it-works span{
@@ -201,14 +201,13 @@ h1{
 }
 
 #how-it-works p{
-    border: 2px solid aqua;
     font-size: 1.5rem;
-    font-family: Intro, sans-serif;
+    font-family: Lato;
     color: grey;
 }
 
 #dishes{
-    background-color: beige;
+    background-color: rgb(235, 235, 222);
 }
 
 #dishes h2{
@@ -223,6 +222,7 @@ h1{
 }
 
 .product-banner{
+    font-family: Lato;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -237,8 +237,21 @@ h1{
 }
 
 .product-banner div span{
+    border: 1px pink solid;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.product-name{
+
+}
+
+.price{
+
+}
+
+.ratings{
+
 }
 
 .grey-star{
