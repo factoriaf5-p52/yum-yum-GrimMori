@@ -71,7 +71,6 @@ h1{
     display: flex;
     align-self: stretch;
     font-family: Intro;
-    font-weight: ;
     font-size: 6rem;
     color: white;
     margin: 5%;
@@ -180,7 +179,7 @@ h1{
 }
 
 #how-it-works div h3, img, p{
-    /* border: 2px solid aqua; */
+    border: 0px solid aqua;
 }
 
 #how-it-works img{
@@ -208,6 +207,7 @@ h1{
 
 #dishes{
     background-color: rgb(235, 235, 222);
+    padding-bottom: 5%;
 }
 
 #dishes h2{
@@ -234,24 +234,89 @@ h1{
 .product-banner img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    height: 450px;
+}
+
+.product-banner div{
+
 }
 
 .product-banner div span{
-    border: 1px pink solid;
-    display: flex;
-    flex-direction: column;
+    /* border: red solid 2px; */
 }
 
 .product-name{
+    /* border: blue 2px solid; */
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 2rem;
 
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 3%;
+}
+
+.product-name h5{
+    /* border: blue 2px solid; */
+    font-size: 2rem;
+    margin: 0%;
+}
+
+.product-name h6{
+    /* border: blue 2px solid; */
+    color: grey;
+    font-weight: 100;
+    font-size: 1.8rem;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .price{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
 
+.price span{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.price a{
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 2rem;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 10px;
 }
 
 .ratings{
+    border-top: 2px solid rgb(190, 190, 190);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
+.ratings img{
+    height: 32px;
+}
+
+.ratings span{
+    color: grey;
+    font-size: 2rem;
+    margin-right: 10%;
 }
 
 .grey-star{
