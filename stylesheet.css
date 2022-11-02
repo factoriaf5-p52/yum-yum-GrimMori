@@ -71,7 +71,7 @@ h1{
     display: flex;
     align-self: stretch;
     font-family: Intro;
-    font-size: 6rem;
+    font-size: 5.3rem;
     color: white;
     margin: 5%;
     margin-left: 10%;
@@ -391,10 +391,13 @@ h1{
 
 #hezy-theme{
     display: flex;
+    flex-flow: column;
     justify-self: center;
     align-self: center;
-    width: 85vw;
+    width: 80vw;
     border-radius: 10px;
+    margin-left: 10vw;
+    filter: brightness(.25)
 }
 
 #featured-restaurant{
@@ -409,4 +412,69 @@ h1{
     font-size: 5rem;
     text-align: center;
     color: orangered;
+}
+
+footer{
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+footer section{
+    display: flex;
+    flex-flow: column nowrap;
+    padding-bottom: 10%;
+}
+
+footer section div{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+footer section h4{
+    font-family: Intro;
+    font-size: 3rem;
+}
+
+footer section div nav a{
+    font-family: Lato;
+    font-size: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    color: grey;
+    font-weight: 100;
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
+#page-bottom{
+    font-family: Lato;
+    font-size: 2rem;
+    text-decoration: none;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 5%;
+    padding-bottom: 10%;
+    border-bottom: 1px whitesmoke solid;
+}
+
+#page-bottom p a{
+    color: rgb(92, 160, 92);
+    text-decoration: none;
+}
+
+#page-bottom nav{
+    display: flex;
+    flex-flow: row nowrap;
+    text-decoration: none;
+}
+
+#page-bottom nav a{
+    color: black;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-right: 12%;
 }
