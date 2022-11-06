@@ -1,0 +1,7 @@
+* img, * svg{
+    width: 10vw;
+}
+
+header > img{
+    width: 55vw;
+}

@@ -1,0 +1,65 @@
+/* ---------- RESET ----------- */
+*{
+    box-sizing: border-box;
+    vertical-align: baseline;
+	font-family: Lato;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 1em;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 1px solid red;
+}
+
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+}
+
+
+/* ----------- LAYOUT --------- */
+
+body{
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 5%;
+	margin: 2%;
+}
+
+header > img{
+    align-self: center;
+}
+
+header > nav{
+    justify-self: flex-end;
+}
+
+header > p{
+    grid-row-start: 2;
+}
+
+main > div{
+    font-family: Lato;
+    margin: 0%;
+    width: 100vw;
+    height: 100vw;
+    margin: 0%;
+    padding: 0%;
+}
+
+main > section{
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
